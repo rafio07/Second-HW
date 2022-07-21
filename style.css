@@ -1,0 +1,306 @@
+/* adding fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* css style  */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    margin: 0px;
+
+}
+
+.display-none {
+    display: none;
+}
+
+hr {
+    width: 1320px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* color */
+.heading-1 {
+    color: #ffffff
+}
+
+/* add animation in banner  */
+.banner-tittle h1.heading {
+    transition: 0.7s all ease-in-out;
+}
+
+.banner-tittle:hover h1 {
+    transform: scale(1.1);
+
+}
+
+.banner-tittle p.heading-1 {
+    transition: 0.7s all ease-in-out;
+}
+
+.banner-tittle:hover p.heading-1 {
+    transform: scale(1.1);
+
+}
+
+
+
+
+
+/* Banner section  */
+
+.main {
+    display: flex;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 50px;
+
+}
+
+.banner {
+    width: 1321px;
+
+    background-color: #161616;
+    border-radius: 30px;
+}
+
+
+.banner-information{
+    display: flex;
+    justify-content: center;
+}
+
+.banner-tittle {
+    width: 531px;
+}
+
+.banner-tittle h1.heading {
+    font-weight: 700;
+    font-size: 70px;
+    color: white;
+    line-height: 80px;
+    margin-bottom: 20px;
+    margin-top: 111px;
+
+}
+
+.banner-tittle .heading p {
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    line-height: 26px;
+    margin-top: 0px;
+
+}
+
+.banner-information img {
+    width: 581px;
+}
+
+.button-red {
+    width: 187px;
+    height: 56px;
+    background-color: #DD0000;
+    border-radius: 5px;
+    border: 0;
+
+}
+
+.button-red a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/* UpComing Section */
+.Box-Row {
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 130px;
+}
+
+.BOX-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 312px;
+    height: 312px;
+    background-color: #161616;
+    border-radius: 10px;
+    margin-right: 24px;
+}
+
+.BOX-left a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #161616;
+    font-style: bold;
+}
+
+.button-upcoming {
+    width: 252px;
+    height: 64px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.active-now {
+    background-color: #DD0000;
+    color: #ffffff;
+}
+
+.active-now a.active {
+    color: #ffffff;
+}
+
+
+button:active {
+    background-color: #DD0000;
+    color: #ffffff;
+
+}
+
+.button-upcoming a.active:active {
+    color: #ffffff;
+
+}
+
+
+
+.BOX-RIGHT{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 24px;
+}
+
+.upcoming-info {
+    width: 312px;
+    height: 362px;
+    margin-right: 24px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+
+.transfer-content {
+    margin-left: 15px;
+}
+
+.transfer-button {
+    border: 1px solid #161616;
+    border-radius: 5px;
+    height: 32px;
+    width: 100px;
+    background-color: #fff;
+    margin-top: 20px
+}
+
+a.small-a {
+    text-decoration: none;
+    color: black;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+span.comment {
+    color: rgba(22, 22, 22, 0.7);
+
+}
+
+.comment i {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/* footer section  */
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #161616;
+    height: 444px;
+}
+
+.footer-heading {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #ffffff;
+    text-align: center;
+
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul.footer-list-info li {
+    display: inline-block;
+    text-align: center;
+}
+
+ul.footer-list-info li a {
+    text-align: center;
+    text-decoration: none;
+    margin-left: 40px;
+    color: #B9B9B9;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+
+
+/* upcoming match box-layout */
+.national-flag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 312px;
+    height: 242px;
+    margin-right: 24px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+
+/* upcoming match schedule */
+.flags {
+    display: flex;
+}
+
+.flags h3 {
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.match-information {
+    text-align: center;
+}
+
+.match-information h2 {
+
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.match-information p {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+}
+
+/* Mobile and Tab Responsive  */
