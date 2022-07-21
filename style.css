@@ -304,3 +304,137 @@ ul.footer-list-info li a {
 }
 
 /* Mobile and Tab Responsive  */
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 688px) {
+    .banner {
+        width: 344px;
+
+    }
+
+    .banner-tittle {
+        width: 288px;
+
+    }
+
+    .banner-tittle h1.heading {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 33px;
+        margin-top: 30px;
+        margin-bottom: 0px;
+
+    }
+
+    p.heading-2 {
+        font-size: 14px;
+    }
+
+
+    .banner-information img {
+        width: 233px;
+        height: 245px;
+    }
+
+
+    .display-none {
+        display: block;
+    }
+
+    .Box-Row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .BOX-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+        height: 312px;
+        background-color: #161616;
+        border-radius: 10px;
+        margin-right: 24px;
+        margin-bottom: 54px;
+
+    }
+
+    .BOX-RIGHT {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 24px;
+    }
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 992px) {
+
+    .banner {
+        width: 734px;
+
+    }
+
+    .banner-tittle {
+        width: 316px;
+
+    }
+
+    .banner-tittle h1.heading {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 40px;
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+
+    p.heading-2 {
+        font-size: 14px;
+    }
+
+
+    .banner-information img {
+        width: 323px;
+        height: 340px;
+    }
+
+
+    .display-none {
+        display: block;
+    }
+
+    .Box-Row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .BOX-left {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        height: 312px;
+        background-color: #ffffff;
+        border-radius: 10px;
+        margin-right: 24px;
+        align-items: center;
+    }
+
+    .BOX-RIGHT {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 24px;
+    }
+
+    .tab-hide {
+        display: none;
+    }
+
+    .only-tab {
+            {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+}
