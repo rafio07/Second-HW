@@ -430,11 +430,10 @@ ul.footer-list-info li a {
         display: none;
     }
 
-    .only-tab {
-            {
+    .only-tab{
+            
             display: flex;
             justify-content: center;
-        }
     }
 
 }
